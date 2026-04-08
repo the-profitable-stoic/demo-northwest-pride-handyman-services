@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "Northwest Pride Handyman Services",
+    "phone": "+12069143838",
+    "category": "handyman service",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-mountain-bold",
+      "categoryGroup": "roofing",
+      "name": "Mountain Bold",
+      "recipeFile": "roofing/mountain-bold.astro",
+      "colors": {
+        "primary": "#1A3A52",
+        "primaryDark": "#0F2436",
+        "primaryLight": "#C8DDE8",
+        "secondary": "#2D5F7C",
+        "accent": "#FFC600",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1A3A52",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Seattle's Trusted Handyman",
+      "heroSubline": "Quality repairs and improvements for your home or business. Serving Seattle and surrounding areas with pride.",
+      "aboutTitle": "Reliable Handyman Services in Seattle",
+      "aboutText": [
+        "Northwest Pride Handyman Services was founded over a decade ago with a simple mission: to provide honest, dependable handyman services to our neighbors in the Seattle area. We saw a need for skilled professionals who took pride in their work and treated every project, big or small, with the same level of care and attention.",
+        "Our approach is straightforward: we listen to your needs, provide transparent pricing, and deliver exceptional results. We believe in clear communication, punctuality, and a commitment to exceeding your expectations. We tackle the jobs other contractors avoid, from moss removal to drywall repair to full renovations.",
+        "As a locally owned and operated business, we're deeply invested in the Seattle community. We source materials from local suppliers whenever possible and actively support local charities. We're not just building structures; we're building relationships."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team consists of skilled craftsmen with years of experience in all aspects of home repair and improvement."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "We provide upfront, honest pricing with no hidden fees. You'll know exactly what to expect before we start any project."
+        },
+        {
+          "title": "Reliable & Punctual",
+          "description": "We respect your time and arrive on schedule, ready to get the job done right the first time."
+        },
+        {
+          "title": "Satisfaction Guaranteed",
+          "description": "We stand behind our work and are committed to your complete satisfaction. If you're not happy, we'll make it right."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Estimate Today!",
+      "ctaSubline": "Contact us now to discuss your project and receive a no-obligation quote."
+    },
+    "services": [
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Expert drywall repair services to restore your walls to their original condition.",
+        "description": "Seattle's damp climate can wreak havoc on drywall. Leaks, humidity, and everyday wear and tear can lead to cracks, holes, and water damage. Northwest Pride Handyman Services offers comprehensive drywall repair solutions for Seattle homes and businesses. We handle everything from small patch jobs to large-scale repairs, ensuring a seamless finish that blends perfectly with your existing walls. \n\nOur process begins with a thorough assessment of the damage. We identify the underlying cause of the problem, whether it's a leaky pipe, structural issue, or simple impact. We then carefully prepare the area, removing any loose or damaged material. Using high-quality patching compounds and techniques, we fill the holes and cracks, creating a smooth, even surface. \n\nOnce the patching is complete, we sand the area to blend it seamlessly with the surrounding wall. We then apply primer and paint to match your existing color scheme. Our goal is to make the repair invisible, leaving you with walls that look as good as new. We also address mold remediation on water damaged drywall.\n\nWe understand the importance of a clean and tidy workspace. We take precautions to protect your furniture and belongings and thoroughly clean up after ourselves, leaving your home or business spotless. We are experienced in repairing drywall in older craftsman homes in neighborhoods like Ballard and Queen Anne, as well as newer construction in South Lake Union and Capitol Hill.",
+        "process": [
+          "Step 1: Assess the damage and identify the cause.",
+          "Step 2: Prepare the area by removing loose material.",
+          "Step 3: Apply patching compound and smooth the surface.",
+          "Step 4: Sand, prime, and paint to match the existing wall."
+        ],
+        "benefits": [
+          "Restores the integrity of your walls",
+          "Improves the appearance of your home or business",
+          "Prevents further damage from moisture and pests",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "How long does drywall repair take?",
+            "answer": "The duration depends on the extent of the damage, but most repairs can be completed in a day."
+          },
+          {
+            "question": "Can you match the existing paint color?",
+            "answer": "Yes, we can accurately match any paint color to ensure a seamless finish."
+          },
+          {
+            "question": "Do you offer mold remediation services?",
+            "answer": "Yes, we address mold issues related to water-damaged drywall."
+          }
+        ]
+      },
+      {
+        "slug": "roof-and-gutter-cleaning",
+        "name": "Roof & Gutter Cleaning",
+        "shortDescription": "Protect your Seattle home with professional roof and gutter cleaning services.",
+        "description": "Seattle's wet climate means moss and debris buildup on roofs and gutters is a constant concern. Northwest Pride Handyman Services offers thorough roof and gutter cleaning to prevent water damage, extend the life of your roof, and keep your home looking its best. We specialize in removing moss, leaves, and other debris that can clog gutters and trap moisture against your roof.\n\nOur team uses safe and effective techniques to clean your roof without damaging shingles or tiles. We start by carefully removing loose debris by hand or with specialized tools. We then use a gentle brush to remove moss and algae, avoiding harsh chemicals that can harm your roof or the environment.\n\nFor gutters, we remove all accumulated leaves, twigs, and other debris. We then flush the gutters and downspouts to ensure they are flowing freely. We also inspect your gutters for any signs of damage, such as leaks or sagging, and provide recommendations for repairs or replacements.\n\nRegular roof and gutter cleaning is essential for maintaining the value and integrity of your Seattle home. By removing moss and debris, you prevent water from backing up under your shingles, which can lead to leaks, wood rot, and costly repairs. Clean gutters also prevent water from overflowing and damaging your foundation. We are familiar with the common roofing styles of Seattle's older homes in areas like Fremont and Wallingford, as well as the needs of newer constructions in areas like West Seattle.",
+        "process": [
+          "Step 1: Remove loose debris from the roof surface.",
+          "Step 2: Gently brush away moss and algae.",
+          "Step 3: Clean gutters and downspouts of all debris.",
+          "Step 4: Inspect gutters for damage and recommend repairs."
+        ],
+        "benefits": [
+          "Prevents water damage to your roof and foundation",
+          "Extends the life of your roof",
+          "Improves curb appeal",
+          "Reduces the risk of pest infestations"
+        ],
+        "faq": [
+          {
+            "question": "How often should I clean my roof and gutters?",
+            "answer": "In Seattle, we recommend cleaning your roof and gutters at least twice a year, in the spring and fall."
+          },
+          {
+            "question": "Do you offer gutter repair services?",
+            "answer": "Yes, we can repair or replace damaged gutters."
+          },
+          {
+            "question": "Are your cleaning methods safe for my roof?",
+            "answer": "Yes, we use gentle and effective methods that won't damage your roof."
+          }
+        ]
+      },
+      {
+        "slug": "deck-repair-and-staining",
+        "name": "Deck Repair & Staining",
+        "shortDescription": "Revitalize your outdoor living space with expert deck repair and staining.",
+        "description": "Seattle's weather can be tough on decks. Rain, sun, and temperature fluctuations can cause wood to rot, crack, and fade. Northwest Pride Handyman Services offers comprehensive deck repair and staining services to restore your deck to its former glory and protect it from the elements. We handle everything from replacing damaged boards to applying protective stains and sealants.\n\nOur deck repair process begins with a thorough inspection of your deck. We identify any areas of rot, decay, or structural damage. We then carefully remove and replace any damaged boards with high-quality lumber. We also reinforce any weak areas to ensure your deck is safe and sturdy.\n\nOnce the repairs are complete, we prepare the deck for staining. We clean the surface thoroughly to remove any dirt, grime, or mildew. We then apply a high-quality stain or sealant to protect the wood from the elements and enhance its natural beauty. We offer a wide range of colors and finishes to match your personal style and the aesthetic of your home. We are familiar with the specific deck construction styles of homes in areas like Magnolia and Madrona, where outdoor living is popular.",
+        "process": [
+          "Step 1: Inspect the deck for damage and identify areas of concern.",
+          "Step 2: Replace damaged boards and reinforce weak areas.",
+          "Step 3: Clean the deck surface thoroughly.",
+          "Step 4: Apply stain or sealant for protection and beauty."
+        ],
+        "benefits": [
+          "Extends the life of your deck",
+          "Enhances the beauty of your outdoor living space",
+          "Protects your deck from the elements",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain my deck?",
+            "answer": "In Seattle, we recommend staining your deck every 2-3 years to protect it from the weather."
+          },
+          {
+            "question": "What type of stain is best for my deck?",
+            "answer": "The best type of stain depends on the type of wood and your personal preferences. We can help you choose the right stain for your deck."
+          },
+          {
+            "question": "Do you offer deck cleaning services?",
+            "answer": "Yes, we offer deck cleaning services to prepare your deck for staining or sealing."
+          }
+        ]
+      },
+      {
+        "slug": "fence-repair-and-installation",
+        "name": "Fence Repair & Installation",
+        "shortDescription": "Secure your property with expert fence repair and installation services.",
+        "description": "A well-maintained fence not only enhances the curb appeal of your home but also provides security and privacy. Northwest Pride Handyman Services offers comprehensive fence repair and installation services to meet your needs. We handle everything from repairing damaged sections of existing fences to installing new fences from scratch.\n\nOur fence repair process begins with a thorough inspection of your fence. We identify any areas of damage, such as broken posts, loose boards, or leaning sections. We then carefully repair or replace the damaged components, using high-quality materials to ensure a lasting repair.\n\nIf you're looking to install a new fence, we can help you choose the right style and materials to match your needs and budget. We offer a wide range of fencing options, including wood, vinyl, and chain-link. We handle all aspects of the installation process, from obtaining permits to digging post holes to erecting the fence. We are familiar with Seattle's property line regulations and neighborhood aesthetics.",
+        "process": [
+          "Step 1: Inspect the fence for damage and identify areas of concern.",
+          "Step 2: Repair or replace damaged components.",
+          "Step 3: Install new fences according to your specifications.",
+          "Step 4: Ensure compliance with local regulations."
+        ],
+        "benefits": [
+          "Enhances security and privacy",
+          "Improves curb appeal",
+          "Defines property lines",
+          "Increases property value"
+        ],
+        "faq": [
+          {
+            "question": "What type of fence is best for my property?",
+            "answer": "The best type of fence depends on your needs and budget. We can help you choose the right fence for your property."
+          },
+          {
+            "question": "Do I need a permit to install a fence?",
+            "answer": "In most cases, you will need a permit to install a fence. We can help you obtain the necessary permits."
+          },
+          {
+            "question": "How long does it take to install a fence?",
+            "answer": "The duration depends on the size and complexity of the project. We can provide you with an estimated timeline."
+          }
+        ]
+      },
+      {
+        "slug": "minor-plumbing-repairs",
+        "name": "Minor Plumbing Repairs",
+        "shortDescription": "Reliable solutions for leaky faucets, running toilets, and other minor plumbing issues.",
+        "description": "Dripping faucets and leaky pipes can waste water and drive up your utility bills. Northwest Pride Handyman Services offers prompt and reliable minor plumbing repair services to address these issues quickly and efficiently. We handle everything from fixing leaky faucets and running toilets to unclogging drains and replacing showerheads.\n\nOur team of experienced handymen is equipped with the tools and knowledge to diagnose and repair a wide range of plumbing problems. We use high-quality parts and materials to ensure a lasting repair. We also take precautions to protect your home from water damage and thoroughly clean up after ourselves.\n\nWe understand that plumbing problems can be disruptive and inconvenient. That's why we offer flexible scheduling and prompt service to minimize the impact on your daily life. We are familiar with the plumbing systems in Seattle's older homes, which often require specialized knowledge and techniques. We are also experienced in working with newer plumbing systems in modern homes and businesses.",
+        "process": [
+          "Step 1: Diagnose the plumbing problem.",
+          "Step 2: Repair or replace faulty components.",
+          "Step 3: Test the repair to ensure it is working properly.",
+          "Step 4: Clean up the work area."
+        ],
+        "benefits": [
+          "Saves water and money",
+          "Prevents water damage",
+          "Extends the life of your plumbing system",
+          "Provides peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "How much does a plumbing repair cost?",
+            "answer": "The cost of a plumbing repair depends on the nature and complexity of the problem. We can provide you with a free estimate."
+          },
+          {
+            "question": "Do you offer emergency plumbing services?",
+            "answer": "We prioritize urgent plumbing repairs and offer flexible scheduling to accommodate your needs."
+          },
+          {
+            "question": "Are your plumbers licensed and insured?",
+            "answer": "Our handymen are experienced and skilled in minor plumbing repairs. For major plumbing work requiring licensing, we can recommend qualified professionals."
+          }
+        ]
+      },
+      {
+        "slug": "painting-services",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your home with professional interior painting services.",
+        "description": "A fresh coat of paint can revitalize your home and create a more inviting atmosphere. Northwest Pride Handyman Services offers professional interior painting services to transform your living spaces. We handle everything from preparing surfaces and applying primer to painting walls, ceilings, and trim.\n\nOur team of experienced painters uses high-quality paints and materials to ensure a smooth, even finish. We take precautions to protect your furniture and belongings and thoroughly clean up after ourselves. We also offer color consultation services to help you choose the perfect colors for your home.\n\nWhether you're looking to refresh a single room or repaint your entire house, we can handle the job with professionalism and attention to detail. We are familiar with the architectural styles and color palettes of Seattle homes, from the historic Craftsman homes in Capitol Hill to the modern condos in downtown Seattle.",
+        "process": [
+          "Step 1: Prepare surfaces by cleaning and patching.",
+          "Step 2: Apply primer to ensure proper adhesion.",
+          "Step 3: Paint walls, ceilings, and trim with high-quality paint.",
+          "Step 4: Clean up the work area."
+        ],
+        "benefits": [
+          "Enhances the beauty of your home",
+          "Protects walls and surfaces",
+          "Increases property value",
+          "Creates a more inviting atmosphere"
+        ],
+        "faq": [
+          {
+            "question": "How much does it cost to paint a room?",
+            "answer": "The cost of painting a room depends on the size of the room and the complexity of the project. We can provide you with a free estimate."
+          },
+          {
+            "question": "How long does it take to paint a room?",
+            "answer": "The duration depends on the size of the room and the number of coats required. We can provide you with an estimated timeline."
+          },
+          {
+            "question": "Do you offer color consultation services?",
+            "answer": "Yes, we offer color consultation services to help you choose the perfect colors for your home."
+          }
+        ]
+      },
+      {
+        "slug": "furniture-assembly",
+        "name": "Furniture Assembly",
+        "shortDescription": "Hassle-free furniture assembly services for your home or office.",
+        "description": "Spending hours deciphering confusing instructions and struggling with Allen wrenches? Northwest Pride Handyman Services offers professional furniture assembly services to save you time and frustration. We assemble all types of furniture, from beds and dressers to desks and bookshelves.\n\nOur team of experienced handymen is equipped with the tools and knowledge to assemble furniture quickly and efficiently. We follow manufacturer instructions carefully and ensure that all components are properly aligned and secured. We also dispose of all packaging materials, leaving your space clean and tidy.\n\nWhether you're furnishing a new home or office, or simply need help assembling a single piece of furniture, we can handle the job with professionalism and attention to detail. We are familiar with the furniture styles and assembly requirements of various retailers, including IKEA, Amazon, and Wayfair. We service homes from Queen Anne to West Seattle and everywhere in between.",
+        "process": [
+          "Step 1: Unpack and inventory all furniture components.",
+          "Step 2: Follow manufacturer instructions carefully.",
+          "Step 3: Assemble the furniture according to specifications.",
+          "Step 4: Dispose of all packaging materials."
+        ],
+        "benefits": [
+          "Saves time and frustration",
+          "Ensures proper assembly",
+          "Prevents damage to furniture",
+          "Provides a clean and tidy workspace"
+        ],
+        "faq": [
+          {
+            "question": "How much does furniture assembly cost?",
+            "answer": "The cost of furniture assembly depends on the type and complexity of the furniture. We can provide you with a free estimate."
+          },
+          {
+            "question": "How long does it take to assemble furniture?",
+            "answer": "The duration depends on the type and complexity of the furniture. We can provide you with an estimated timeline."
+          },
+          {
+            "question": "Do you assemble IKEA furniture?",
+            "answer": "Yes, we assemble all types of furniture, including IKEA furniture."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services is proud to serve the residents of Bellevue, Washington. We understand the unique needs of Bellevue homeowners, particularly those with the upscale homes built between the 1980s and 2000s that characterize much of the area. From minor repairs to larger renovations, we're equipped to handle any home improvement project. \n\nBellevue's mild, wet winters can take a toll on homes. We offer services to combat the effects of persistent rain, including gutter cleaning, roof repairs, and addressing moisture issues to prevent water damage and maintain the value of your property. Our team is committed to providing reliable and professional handyman services to keep your Bellevue home in top condition.",
+        "localContext": "Bellevue is known for its upscale homes built primarily between the 1980s and 2000s, and experiences mild, wet winters with persistent rain.",
+        "nearbyAreas": [
+          "Redmond",
+          "Kirkland",
+          "Seattle"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "slug": "redmond-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services provides comprehensive handyman services to the Redmond, WA community. With a significant portion of the population connected to the Microsoft campus, we understand the busy lifestyles of Redmond residents and offer flexible scheduling and efficient service to minimize disruption to your daily routine.\n\nRedmond's climate, with its mild and wet winters, can lead to common household issues. We specialize in addressing these issues, from repairing leaky faucets to tackling weather-related damage. Our goal is to provide reliable and affordable handyman services to keep your Redmond home comfortable and well-maintained.",
+        "localContext": "Redmond is home to the Microsoft campus and experiences mild, wet winters with persistent rain, impacting homes in the area.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Kirkland",
+          "Sammamish"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "slug": "kirkland-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services is dedicated to serving the residents of Kirkland, Washington. Many Kirkland homes are located on or near the waterfront of Lake Washington. We are experienced in addressing the specific needs of these waterfront properties, including weather protection and dock maintenance.\n\nThe climate in Kirkland, like much of the Puget Sound region, features mild, wet winters. We offer a range of services to protect your Kirkland home from the elements. From gutter cleaning to siding repair, we can help you maintain the value and beauty of your home year-round. We provide quality handyman services, tailored to the specific needs of Kirkland homeowners.",
+        "localContext": "Kirkland is known for its waterfront homes along Lake Washington and experiences mild, wet winters.",
+        "nearbyAreas": [
+          "Redmond",
+          "Bellevue",
+          "Woodinville"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "slug": "tacoma-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services is proud to offer our services to the residents of Tacoma, WA. We have experience working on the diverse range of homes in Tacoma, including the many beautiful Craftsman-style houses built in the early 20th century, particularly in the Stadium District. We understand the unique challenges and opportunities presented by these older homes.\n\nTacoma's climate, with its mild but wet winters, can lead to issues with aging homes. We offer services specifically designed to address these concerns, such as weather stripping, window repair, and moisture control. Our team is committed to providing reliable and professional handyman services to preserve the charm and integrity of your Tacoma home.",
+        "localContext": "Tacoma features many 1900s-20s Craftsman homes, especially in the Stadium District, and experiences mild, wet winters.",
+        "nearbyAreas": [
+          "University Place",
+          "Lakewood",
+          "Federal Way"
+        ]
+      },
+      {
+        "city": "Bothell",
+        "slug": "bothell-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services proudly serves Bothell, Washington. Bothell is characterized by suburban developments built primarily in the 1980s and 1990s. We are familiar with the common construction styles and issues that arise in these homes, and we offer a wide range of services to address them.\n\nThe mild, wet winters of Bothell can lead to moisture-related problems in homes. We provide services such as gutter cleaning, roof repair, and weather sealing to protect your home from the elements. Our goal is to provide reliable and affordable handyman services to keep your Bothell home in excellent condition.",
+        "localContext": "Bothell features 1980s-90s suburban developments and experiences mild, wet winters.",
+        "nearbyAreas": [
+          "Woodinville",
+          "Mill Creek",
+          "Kenmore"
+        ]
+      },
+      {
+        "city": "Seattle",
+        "slug": "seattle-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services is based in Seattle, WA, and provides wide-ranging services to our neighbors in the Emerald City. From Queen Anne Victorians to modern condos in Belltown, we understand the diverse architectural styles and needs of Seattle homeowners and renters. We are dedicated to providing high-quality, reliable handyman services throughout the city.\n\nSeattle's weather, known for its rain, can cause a variety of home maintenance issues. We offer solutions for everything from leaky roofs to damaged siding, and we are committed to helping you protect your investment and maintain the value of your Seattle property. We are your trusted partner for all your handyman needs in the heart of the Pacific Northwest.",
+        "localContext": "Seattle is a city with diverse architecture and a climate characterized by frequent rain.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Shoreline",
+          "Burien"
+        ]
+      },
+      {
+        "city": "Shoreline",
+        "slug": "shoreline-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services is pleased to serve Shoreline, WA, providing quality home repair and maintenance services to residents in this vibrant community. Shoreline features a mix of residential areas, from established neighborhoods to newer developments, each with its unique character and needs. We're prepared to handle any project, big or small.\n\nLike much of the Puget Sound region, Shoreline experiences mild, wet winters. This climate can take a toll on homes, leading to issues like moss growth, leaky roofs, and water damage. We offer a range of services to combat these effects, including roof cleaning, gutter maintenance, and weatherproofing. Our goal is to help Shoreline homeowners protect their investment and keep their homes looking their best.",
+        "localContext": "Shoreline is a residential community experiencing mild, wet winters, requiring proactive home maintenance.",
+        "nearbyAreas": [
+          "Seattle",
+          "Edmonds",
+          "Lake Forest Park"
+        ]
+      },
+      {
+        "city": "Renton",
+        "slug": "renton-wa",
+        "state": "WA",
+        "content": "Northwest Pride Handyman Services is proud to offer our expertise to the residents of Renton, WA. Renton is a diverse city with a mix of older homes and newer developments. We understand the varied needs of homeowners in Renton, and we are committed to providing reliable and affordable handyman services.\n\nRenton's location in the Puget Sound region means it experiences mild, wet winters. This climate can lead to common household issues like leaky roofs, damaged siding, and moisture problems. We offer services specifically designed to address these concerns, from gutter cleaning to weather sealing. Our team is dedicated to helping Renton homeowners maintain the value and comfort of their homes.",
+        "localContext": "Renton is a diverse city in the Puget Sound region with mild, wet winters, requiring regular home maintenance.",
+        "nearbyAreas": [
+          "Seattle",
+          "Kent",
+          "Newcastle"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "I had a large hole in my drywall from a leaky pipe, and Northwest Pride Handyman Services did an amazing job repairing it. You can't even tell there was ever a hole there! They were professional, efficient, and cleaned up everything afterwards. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Roof & Gutter Cleaning",
+        "text": "We've used Northwest Pride Handyman Services for roof and gutter cleaning for the past two years. They always do a thorough job removing moss and debris, and they're very reliable. Our gutters are flowing perfectly now, and our roof is looking much better!",
+        "date": "2024-11-01"
+      },
+      {
+        "name": "Emily L.",
+        "rating": 5,
+        "service": "Deck Repair & Staining",
+        "text": "Our deck was in rough shape after years of Seattle rain. Northwest Pride Handyman Services replaced several damaged boards and stained the entire deck. It looks brand new! The team was professional, courteous, and did excellent work.",
+        "date": "2025-05-20"
+      },
+      {
+        "name": "Tom S.",
+        "rating": 5,
+        "service": "Fence Repair",
+        "text": "A tree fell on our fence during a storm, and Northwest Pride Handyman Services came out quickly to repair it. They matched the existing fence perfectly, and the repair is very sturdy. Great service!",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "Jessica B.",
+        "rating": 4,
+        "service": "Minor Plumbing Repairs",
+        "text": "I had a leaky faucet that was driving me crazy. Northwest Pride Handyman Services fixed it quickly and efficiently. The handyman was polite and professional, and the price was very reasonable.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Michael P.",
+        "rating": 5,
+        "service": "Furniture Assembly",
+        "text": "I bought a new bed frame from IKEA and was dreading the assembly process. Northwest Pride Handyman Services assembled it quickly and perfectly. They saved me so much time and frustration!",
+        "date": "2024-12-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Seattle Handyman Services | Northwest Pride",
+        "description": "Reliable handyman services in Seattle, WA. Repairs, maintenance, and improvements. Free estimates!"
+      },
+      "about": {
+        "title": "About Us | Northwest Pride Handyman Services",
+        "description": "Learn about Northwest Pride Handyman Services in Seattle. Experienced professionals, quality work, and customer satisfaction guaranteed."
+      },
+      "services": {
+        "title": "Handyman Services | Northwest Pride Seattle",
+        "description": "Comprehensive handyman services in Seattle. Drywall, roofing, decks, fences, plumbing, painting and more."
+      },
+      "contact": {
+        "title": "Contact Us | Northwest Pride Handyman Services",
+        "description": "Contact Northwest Pride Handyman Services for a free estimate. Serving Seattle, Bellevue, Redmond, and surrounding areas."
+      },
+      "reviews": {
+        "title": "Customer Reviews | Northwest Pride Handyman",
+        "description": "Read reviews from satisfied customers of Northwest Pride Handyman Services of Seattle. See what our clients say!"
+      },
+      "service-areas": {
+        "title": "Service Areas | Northwest Pride Handyman",
+        "description": "Northwest Pride Handyman Services serves Seattle, Bellevue, Redmond, Kirkland, Tacoma, and Bothell, WA."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "roof-and-gutter-cleaning": "/images/service-roof-and-gutter-cleaning.webp",
+      "deck-repair-and-staining": "/images/service-deck-repair-and-staining.webp",
+      "fence-repair-and-installation": "/images/service-fence-repair-and-installation.webp",
+      "minor-plumbing-repairs": "/images/service-minor-plumbing-repairs.webp",
+      "painting-services": "/images/service-painting-services.webp",
+      "furniture-assembly": "/images/service-furniture-assembly.webp"
+    },
+    "servicesResponsive": {
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-and-gutter-cleaning": {
+        "src": "/images/service-roof-and-gutter-cleaning.webp",
+        "srcset": "/images/service-roof-and-gutter-cleaning-400w.webp 400w, /images/service-roof-and-gutter-cleaning-800w.webp 800w, /images/service-roof-and-gutter-cleaning-1200w.webp 1200w, /images/service-roof-and-gutter-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-repair-and-staining": {
+        "src": "/images/service-deck-repair-and-staining.webp",
+        "srcset": "/images/service-deck-repair-and-staining-400w.webp 400w, /images/service-deck-repair-and-staining-800w.webp 800w, /images/service-deck-repair-and-staining-1200w.webp 1200w, /images/service-deck-repair-and-staining.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fence-repair-and-installation": {
+        "src": "/images/service-fence-repair-and-installation.webp",
+        "srcset": "/images/service-fence-repair-and-installation-400w.webp 400w, /images/service-fence-repair-and-installation-800w.webp 800w, /images/service-fence-repair-and-installation-1200w.webp 1200w, /images/service-fence-repair-and-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "minor-plumbing-repairs": {
+        "src": "/images/service-minor-plumbing-repairs.webp",
+        "srcset": "/images/service-minor-plumbing-repairs-400w.webp 400w, /images/service-minor-plumbing-repairs-800w.webp 800w, /images/service-minor-plumbing-repairs-1200w.webp 1200w, /images/service-minor-plumbing-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "painting-services": {
+        "src": "/images/service-painting-services.webp",
+        "srcset": "/images/service-painting-services-400w.webp 400w, /images/service-painting-services-800w.webp 800w, /images/service-painting-services-1200w.webp 1200w, /images/service-painting-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "furniture-assembly": {
+        "src": "/images/service-furniture-assembly.webp",
+        "srcset": "/images/service-furniture-assembly-400w.webp 400w, /images/service-furniture-assembly-800w.webp 800w, /images/service-furniture-assembly-1200w.webp 1200w, /images/service-furniture-assembly.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
